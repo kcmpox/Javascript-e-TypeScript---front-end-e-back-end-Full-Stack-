@@ -1,0 +1,4 @@
+# Configurações de IDEs
+.vscode/
+.idea/
+*.code-workspace
