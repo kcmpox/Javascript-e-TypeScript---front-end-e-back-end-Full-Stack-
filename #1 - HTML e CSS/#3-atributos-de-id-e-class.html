@@ -1,0 +1,36 @@
+<!--
+  id: Um identificador único para um elemento HTML. Deve ser exclusivo dentro da página,
+  permitindo selecionar e estilizar elementos específicos com CSS ou manipulá-los com JavaScript.
+  Convenção: usar um único id por elemento.
+
+  class: Um classificador reutilizável para agrupar elementos HTML que compartilham estilos
+  ou comportamentos similares. Diferente do id, múltiplas classes podem ser atribuídas a um
+  elemento, e uma classe pode ser usada em vários elementos da página.
+  Convenção: usar nomes descritivos e reutilizáveis.
+-->
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .titulo {
+        color: blue;
+      }
+      .letra-coloridas {
+        color: red;
+      }
+      .subtitulo {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo-principal" class="titulo letra-coloridas">
+      Meu Título Principal
+    </h1>
+    <h2 class="subtitulo">Meu Subtítulo</h2>
+  </body>
+</html>
